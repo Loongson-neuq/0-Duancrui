@@ -1,0 +1,14 @@
+main.cpp:6:8: error: redefinition of ‘struct Result’
+    6 | struct Result
+      |        ^~~~~~
+In file included from main.cpp:1:
+.assignment/test.h:4:8: note: previous definition of ‘struct Result’
+    4 | struct Result
+      |        ^~~~~~
+main.cpp:44:5: error: conflicting declaration of C function ‘int main()’
+   44 | int main() {
+      |     ^~~~
+In file included from main.cpp:1:
+.assignment/test.h:55:5: note: previous declaration ‘int main(int, char**)’
+   55 | int main(int argc, char *argv[])
+      |     ^~~~
